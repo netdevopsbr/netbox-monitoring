@@ -1,10 +1,10 @@
 # Netbox plugin related import
 from extras.plugins import PluginConfig
 
-class NetboxZabbixAPI(PluginConfig):
-    name = "netbox_zabbix"
-    verbose_name = "Netbox and Zabbix API"
-    description = "Netbox and Zabbix Integration through API"
+class NetboxMonitoringConfig(PluginConfig):
+    name = "netbox_monitoring"
+    verbose_name = "Netbox Monitoring"
+    description = "Netbox Monitoring - Netbox and Zabbix integration through API"
     version = "0.0.1"
     author = "Emerson Felipe (@emersonfelipesp)"
     author_email = "emersonfelipe.2003@gmail.com"
@@ -25,4 +25,4 @@ class NetboxZabbixAPI(PluginConfig):
         }
     }
 
-config = NetboxZabbixAPI
+config = NetboxMonitoringConfig

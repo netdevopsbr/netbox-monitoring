@@ -11,7 +11,7 @@ from . import forms, models, tables
 
 class HomeView(View):
     """Homepage"""
-    template_name = 'netbox_zabbix/home.html'
+    template_name = 'netbox_monitoring/home.html'
 
     # service incoming GET HTTP requests
     def get(self, request):

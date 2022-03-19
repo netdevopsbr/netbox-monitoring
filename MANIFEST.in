@@ -2,4 +2,4 @@ include *.lock
 include *.md
 include *.py
 include *.txt
-recursive-include netbox_zabbix *.py
+recursive-include netbox_monitoring *.py
