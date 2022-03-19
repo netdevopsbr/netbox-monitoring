@@ -30,12 +30,9 @@ setup(
     },
     packages=find_packages(),
     include_package_data=True,
+    zip_safe=False,
     package_data={
         "": ['*','*/*','*/*/*'],
-    },
-    install_requires=requires,
-    extras_require={
-        "dev": dev_requires,
     },
     python_requires= '>=3.6',
 )
